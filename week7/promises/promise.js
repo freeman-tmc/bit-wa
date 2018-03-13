@@ -1,4 +1,9 @@
+
+
 const myPromise = new Promise((resolve, reject) => {
     console.log(new Date());
-    resolve();
+    setTimeout(resolve(10));
 });
+
+myPromise.then(console.log(num));
+
