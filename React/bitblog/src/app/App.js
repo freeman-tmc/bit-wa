@@ -21,7 +21,7 @@ class App extends Component {
           <Route exact path='/authors' component={AllAuthors} />
           <Route exact path='/posts/new' component={NewPost} />
           <Route path='/authors/:id' component={Author} />
-          <Route path='/posts/:postId' component={Post} />
+          <Route path='/post/:id' component={Post} />
         </Switch>
         <Footer />
       </React.Fragment>
